@@ -1,6 +1,6 @@
 verificaprimo = 1
 primo = 2
-cont = 3
+cont = 2
 while (primo<=10001):
 	cont+=1
 	verificaprimo = 1
