@@ -2,14 +2,16 @@
 #include <stdlib.h>
 
 int main(){
-    int var=0, sequencia=0, resp=0, aux=0;
+    int var=0, sequencia=0, resp=0, aux=0, i=2;
     for(int i=2; i<1000000; i++){
         var = i;
-        while(var!=1){
+        aux = sequencia;
+        sequencia = 0;
+        while(var>1){
             if(var%2==0){
                 var = var/2;
             }
-            else if(var%2!=0){
+            else{
                 var = (var*3)+1;
             }
             sequencia++;
@@ -17,7 +19,6 @@ int main(){
         if(sequencia>aux){
             resp = i;
         }
-        aux = sequencia;
     }
     printf("%d", resp);
     return 0;
