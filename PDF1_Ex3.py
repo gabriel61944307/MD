@@ -1,18 +1,14 @@
-#TA ERRADO
-var = 0
-sequencia = 0
-resp = 0
-aux = 0
+valor_maior_sequencia=0
 for i in range(2,1000000):
-	var = i
-	while(var!=1):
-		if(var%2==0):
-			var = var/2
-		else:
-			var = (var*3)+1
-		sequencia+=1
-	if(sequencia>aux):
-		resp = i
-	aux = sequencia
-	sequencia = 0
-print(resp)
+    maior_sequencia = 1
+    valor = i
+    while(valor!=1):
+        if (valor%2==0):
+            valor = valor/2
+        else:
+            valor = (3*valor+1)
+        maior_sequencia = maior_sequencia+1    
+    if(maior_sequencia>valor_maior_sequencia):
+        valor_maior_sequencia=maior_sequencia
+        resposta = i
+print(resposta)  
