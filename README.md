@@ -1,7 +1,7 @@
 # MD
 <p>Trabalho de Matemática Discreta</p>
 Este repositório contém codigos referentes ao trabalho da disciplina de Matemática Discreta ministrada na UFSCar pelo Drº Alexandre Luis Magalhães Levada.
-<p>Autores dos codigos:</p>
+<p>Autores dos códigos:</p>
 <ul>
   <li>Gabriel Rodrigues Malaquias</li>
   <li>Isaac Wilian</li>
