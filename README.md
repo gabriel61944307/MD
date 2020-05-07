@@ -4,7 +4,7 @@ Este repositório contém codigos referentes ao trabalho da disciplina de Matem�
 <p>Autores dos códigos:</p>
 <ul>
   <li>Gabriel Rodrigues Malaquias</li>
-  <li>Isaac Wilian</li>
+  <li>Isaac Willian</li>
   <li>Tiago Lucas Leal</li>
   </ul>
 Relatório do trabalho: https://docs.google.com/document/d/1whZJs1OOBCR5wIQxLKwDDriUiIHCkqyMqTnqqsVgceA/edit
